@@ -1,0 +1,440 @@
+.box {
+  padding-bottom: 1rem;
+}
+
+.mint-header {
+  background-color: #06c1ae;
+  height: 52px;
+}
+
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 3px solid #06c1ae;
+  color: #06c1ae;
+  margin-bottom: -3px;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.poi-album-tip {
+  position: absolute;
+  width: 2.8rem;
+  height: 2.8rem;
+  right: 0.15rem;
+  bottom: 0.15rem;
+  background-color: #000;
+  opacity: 0.7;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  line-height: 0.96rem;
+}
+
+.poi-album-tip a.react {
+  display: block;
+  color: inherit;
+  width: 100%;
+  padding-top: 0.6rem;
+}
+
+/* 地址========================================== */
+.poiinfo-wrap {
+  background-color: #fff;
+  padding-left: .6rem;
+  padding-bottom: .8rem;
+}
+
+.poiinfo-wrap .name {
+  margin: 0;
+  border-bottom: 1px solid #ddd8ce;
+}
+
+.poiinfo-wrap .name .poi-brand {
+  margin: .21rem 1rem .15rem 0;
+  color: #333;
+  font-size: 1rem;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.poiinfo-wrap .name .poi-score {
+  margin: .6rem 0;
+  text-align: left;
+  font-size: .8rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-star-orange-lg {
+  width: 1rem;
+  height: 1rem;
+  margin-right: .2rem;
+  background-image: url(../../../static/img/start.png);
+  background-size: 100%;
+}
+
+.stars .star-text {
+  color: #f90;
+  font-weight: bold;
+  margin-left: .6rem;
+}
+
+.poiinfo-wrap .name .avg-price {
+  color: #999;
+  margin-left: 2.4rem;
+}
+
+.poiinfo-wrap .addr {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.poiinfo-wrap .addr .react {
+  padding: .28rem 0;
+  color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poiinfo-wrap .icon-location {
+  transform: scale(6, 6);
+  background-image: url(../../../static/img/iconpic.png);
+  background-position: -1.3rem -1rem;
+  width: .25rem;
+  height: .25rem;
+  background-repeat: no-repeat;
+  background-size: 1.62rem 1.56rem;
+  margin: 1.3rem 0 0 .9rem;
+}
+
+.poiinfo-wrap .addr .poi-address {
+  width: 80%;
+  text-align: left;
+  padding-top: .4rem;
+  margin-left: .9rem;
+  font-size: .7rem;
+}
+
+.poiinfo-wrap .addr .phone {
+  border-left: 1px solid #ddd8ce;
+  display: flex;
+}
+
+.poiinfo-wrap .addr .poi-phone {
+  height: 100%;
+  width: 3.2rem;
+  text-align: center;
+}
+
+.icon-tel {
+  display: block;
+  margin: .4rem 0 0 .6rem;
+  background-image: url(../../../static/img/iconpic.png);
+  background-position: -5.8rem -2.9rem;
+  transform: scale(.7);
+  width: 2.2rem;
+  height: 2.4rem;
+}
+
+/* 推荐菜========================================================= */
+.block {
+  border-top: 1px solid #ddd8ce;
+  border-bottom: 1px solid #ddd8ce;
+  margin-top: .8rem;
+  background-color: #fff;
+}
+
+.block .block-title {
+  font-size: 1.24rem;
+  color: #333;
+  padding: .6rem 0;
+  margin-left: .8rem;
+  border-bottom: 1px solid #ddd8ce;
+  overflow: hidden;
+  font-weight: 400;
+  text-align: left;
+}
+
+.recommond-wrapper {
+  margin: 0 .2rem;
+  overflow: hidden;
+  font-weight: 400;
+  position: relative;
+  padding: .28rem .2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recommond-wrapper .recommond-item {
+  font-size: .3rem;
+  color: #333;
+  font-size: .9rem;
+  color: #666;
+  font-weight: 400;
+  margin-right: 1.04rem;
+  margin-bottom: .37rem;
+}
+
+/* 黄色按钮================================== */
+.all-comment {
+  border-top: 1px solid #ddd8ce;
+  border-bottom: 1px solid #ddd8ce;
+  margin-top: .6rem;
+  padding: .4rem;
+  background-color: #fff;
+}
+
+.all-comment .block-title {
+  display: block;
+  padding: .21rem .2rem .21rem 0;
+  border-bottom: 0;
+  overflow: hidden;
+  color: inherit;
+  height: 100%;
+  margin-left: .2rem;
+}
+
+.all-comment .block-title .stars {
+  float: left;
+}
+
+.cloud-tag {
+  font-size: inherit;
+  padding: .8rem .2rem .12rem 0;
+  margin-left: .2rem;
+  border-top: 1px solid #ddd8ce;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cloud-tag a.tag-hot {
+  color: #fdb338;
+  border-color: #fdb338;
+  margin-bottom: .3rem;
+  margin-right: .4rem;
+  font-size: .28rem;
+  padding: .4rem .6rem;
+  border: 1px solid #fdb338;
+  border-radius: .2rem;
+}
+
+.cloud-tag .tag-num {
+  margin-left: .05rem;
+}
+
+/* 用户反馈======================================= */
+.feedback-card {
+  position: relative;
+  padding: 0.28rem 0.2rem 0.28rem 0;
+  border-top: 1px solid #ddd8ce;
+  background: #fff;
+}
+
+.feedback-card .imgbox {
+  background-size: 50%;
+}
+
+.feedback-card .user-wrapper {
+  position: relative;
+}
+
+.feedback-card .user-wrapper .imgbox {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.feedback-card .user-wrapper .imgbox img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  border: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: none;
+}
+
+.feedback-card .user-pic {
+  position: absolute;
+  vertical-align: top;
+}
+
+.feedback-card .user-info-text {
+  margin-left: 0.8rem;
+  color: #999;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.feedback-card .user-info-text .user-info {
+  margin-bottom: 0.06rem;
+  font-size: 0.24rem;
+  line-height: 1.41;
+  color: #666;
+}
+
+.feedback-card .user-info-text .score {
+  margin-bottom: 0.4rem;
+  font-size: 0.24rem;
+  margin-top: -0.06rem;
+}
+
+.feedback-card .user-info-text .stars {
+  display: inline-block;
+  margin-right: 0.2rem;
+  font-size: 0.28rem;
+  vertical-align: bottom;
+}
+
+.feedback-card .serious-evaluation {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: -0.18rem;
+  right: 0.25rem;
+}
+
+.feedback-card .serious-evaluation img {
+  width: 100%;
+  height: 100%;
+}
+
+.feedback-card .comment {
+  margin-top: 0.3rem;
+  margin-bottom: 0.22rem;
+  font-size: 0.3rem;
+}
+
+.feedback-card .comment .comment-container {
+  display: block;
+  line-height: 1.41;
+  text-indent: 24px;
+  margin: -0.2em 0;
+  word-break: break-all;
+  font-size: .9rem;
+  text-align: left;
+}
+
+.feedback-card .comment .icon-ell:after {
+  content: '...';
+  display: inline;
+}
+
+.feedback-card .comment .feedback-more {
+  display: none;
+}
+
+.feedback-card .comment .icon-toggle-arrow {
+  position: relative;
+  float: right;
+  width: 2em;
+  text-align: center;
+}
+
+.feedback-card .comment .icon-toggle-arrow:after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -0.2em;
+  width: 0.5em;
+  height: 0.5em;
+  border-bottom: 0.03rem solid #c3c5c9;
+  border-left: 0.03rem solid #c3c5c9;
+  -webkit-transform: rotateZ(-45deg);
+  -moz-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+}
+
+.feedback-card .comment .toggle-content.active .icon-ell:after {
+  content: '';
+  display: inline;
+}
+
+.feedback-card .comment .toggle-content.active .feedback-more {
+  display: inline;
+}
+
+.feedback-card .comment .toggle-content.active .icon-toggle-arrow:after {
+  -webkit-transform: rotateZ(135deg);
+  -moz-transform: rotateZ(135deg);
+  -ms-transform: rotateZ(135deg);
+}
+
+.feedback-card .pics {
+  margin-bottom: 0.26rem;
+}
+
+.feedback-card .pics .imgbox {
+  display: inline-block;
+  margin-right: 0.1rem;
+  margin-bottom: 0.14rem;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: top;
+}
+
+.feedback-card .poi-name {
+  font-size: 0.28rem;
+}
+
+.feedback-card .poi-name a {
+  color: #666;
+}
+
+.feedback-card .block-reply {
+  color: #666;
+  margin-top: 0.2rem;
+  background-color: #f7f7f6;
+  padding: 0.2rem;
+  position: relative;
+  border-radius: 0.06rem;
+  -webkit-border-radius: 0.06rem;
+}
+
+.feedback-card .block-reply .block-reply-head {
+  border-bottom: 1px solid #e0ddd7;
+  font-size: 0.24rem;
+  padding-bottom: 0.2rem;
+  color: #666;
+}
+
+.feedback-card .block-reply .reply-container {
+  margin-top: 0.2rem;
+  font-size: 0.3rem;
+  color: #ed852c;
+}
+
+.feedback-card .block-reply .reply-time {
+  float: right;
+  color: #999;
+}
+
+.feedback-card .block-reply:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0.2rem;
+  height: 0.2rem;
+  top: -0.1rem;
+  left: 0.5rem;
+  background-color: #f7f7f6;
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+}
